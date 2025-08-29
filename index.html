@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneha's Portfolio</title>
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sneha's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home -->
+      <section id="home" class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Sneha</span>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="background.jpg" alt="Profile Image" />
+        </div>
+      </section>
+      
+
+      <!-- About -->
+<section id="about" class="section">
+  <h1>About Me</h1>
+  <!-- <p class="about-intro">
+    I am a passionate <span class="purple">Software Engineer</span> with a strong background in 
+    <b>web development</b>, <b>problem-solving</b>, and <b>cybersecurity</b>I enjoy creating impactful solutions, collaborating in hackathons,constantly learning new technologies.
+  </p> -->
+
+  <div class="about-cards">
+    
+    <!-- Education -->
+    <div class="about-card">
+      <button class="collapsible">🎓 Education</button>
+      <div class="content">
+        <p><strong>B.Tech in Computer Science</strong> – IGDTUW (7.47 CGPA)</p>
+        <p><strong>Class 12th</strong> – School of Excellence, Rohini (95.2%)</p>
+        <p><strong>Class 10th</strong> – GSKV Kanjhawala (91.2%)</p>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="about-card">
+      <button class="collapsible">💼 Experience</button>
+      <div class="content">
+        <p><strong>Amazon – Support Engineer Intern</strong> (Chennai)</p>
+        <p>Worked on WebLab Allocation Provider migration, AWS deployments, and enhanced authentication security.</p>
+        <hr>
+        <p><strong>CDAC – Project Trainee (Virtual)</strong></p>
+        <p>Completed <b>Ethical Hacking & Penetration Testing</b> internship under Cyber Gyan Project (Jul–Aug 2025).</p>
+      </div>
+    </div>
+
+    <!-- Hackathons -->
+    <div class="about-card">
+      <button class="collapsible">🏆 Hackathons</button>
+      <div class="content">
+        <p><strong>Hack4Purpose – IIT Delhi</strong> → Built ML-based health report analyzer.</p>
+        <p><strong>Vihaan – DTU</strong> → Developed “MealSavers” to reduce food waste.</p>
+        <p><strong>HacknSolve – IGDTUW</strong> → Designed hospital frontend (HTML, CSS, JS).</p>
+      </div>
+    </div>
+
+    <!-- Certifications -->
+    <div class="about-card">
+      <button class="collapsible">📜 Certifications</button>
+      <div class="content">
+        <p><strong>Ethical Hacking & Penetration Testing</strong> – CDAC Noida</p>
+        <p><strong>Intro to GenAI</strong> – Udacity x AWS</p>
+        <p><strong>Intro to AI</strong> – IBM Coursera</p>
+        <p><strong>Soft Skills</strong> – NPTEL</p>
+        <p><strong>Consumer Psychology</strong> – NPTEL</p>
+        <p><strong>Advanced Industry Practices</strong> – Anveshan Foundation</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+      <!-- Skills -->
+<section id="skills" class="section">
+  <h1>Skills</h1>
+
+  <!-- Technical Skills -->
+  <h2 class="skill-category">Technical Skills</h2>
+  <div class="skills-list">
+    <div>HTML</div>
+    <div>CSS</div>
+    <div>JavaScript</div>
+    <div>React.js</div>
+    <div>SQL</div>
+    <div>PHP</div>
+    <div>Git</div>
+    <div>Linux</div>
+  </div>
+
+  <!-- CS Fundamentals -->
+  <h2 class="skill-category">CS Fundamentals</h2>
+  <div class="skills-list">
+    <div>Object Oriented Programming</div>
+    <div>Operating System</div>
+    <div>Computer Netwroks</div>
+    <div>Data Base management System</div>
+    <div>Data Structures & Algorithms</div>
+  </div>
+
+  <!-- Soft Skills -->
+  <h2 class="skill-category">Soft Skills</h2>
+  <div class="skills-list">
+    <div>Problem Solving</div>
+    <div>Communication</div>
+    <div>Teamwork</div>
+    <div>Adaptability</div>
+  </div>
+</section>
+
+
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h1>Projects</h1>
+        <div class="projects-list">
+          <div>
+            <strong>FeeTrackr</strong>
+            <p>A full-stack web app (React, Node.js, Express, MongoDB) to streamline fee record management with Admin access, REST APIs, and responsive UI.</p>
+            <a href="https://github.com/Snehajaisw/FeeTrackr" target="_blank">View Project</a>
+          </div>
+          <div>
+            <strong>MealSavers</strong>
+            <p>A food waste management platform connecting restaurants with NGOs to redistribute surplus food efficiently.</p>
+            <a href="https://github.com/Snehajaisw/MealSavers-website" target="_blank">View Project</a>
+          </div>
+          <div>
+            <strong>NetClix</strong>
+            <p>A movie & TV show recommendation system using collaborative + content-based AI techniques.</p>
+            <a href="https://github.com/sneha/netclix" target="_blank">View Project</a>
+          </div>
+          <div>
+            <strong>Portfolio</strong>
+            <p>A responsive portfolio built using HTML, CSS & JavaScript. 
+               Designed with focus on usability, data organization, and smooth UX.</p>
+            <a href="https://github.com/Snehajaisw/MealSavers-website" target="_blank">View Project</a>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!-- ------------------ Contact ------------------ -->
+<section class="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-links">
+    <a href="mailto:jaiswalsneha419@gmail.com">Email</a>
+    <a href="https://github.com/">GitHub</a>
+    <a href="https://linkedin.com/">LinkedIn</a>
+    <a href="https://twitter.com/">Twitter</a>
+  </div>
+  <button class="download-btn">Download Resume</button>
+</section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Software Engineer", "Problem Solver"],
+        typeSpeed: 50,
+      });
+
+      document.querySelectorAll(".collapsible").forEach(button => {
+        button.addEventListener("click", function () {
+          this.classList.toggle("active");
+          let content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
